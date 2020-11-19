@@ -4,9 +4,9 @@ import './DedicatedTeam.css';
 const DedicatedTeam = () => {
   return (
     <div className="container">
-       <h1 className="font-weight-bold mt-5">Choose Your Dedicated Team</h1>
-      <div className="row">
-        <div className="col-md-3 py-5 box-shadow margin">
+       <h1 style = {{color: '#0D052E' , fontSize: '50px' , fontWeight: '800' , fontFamily: 'Merriweather serif'}} className="font-weight-bold mt-5 text-center">Choose Your Dedicated Team</h1>
+      <div className="row justify-content-center align-items-center text-center">
+        <div className="col-md-3 py-5 px-5 box-shadow margin">
           <h1 className="font-weight-bold">$199</h1>
           <p>For Basic</p>
           <hr className="borderCyan"/>
@@ -37,7 +37,7 @@ const DedicatedTeam = () => {
             </div>
           </ul>
         </div>
-        <div className="col-md-3 py-5 box-shadow margin">
+        <div className="col-md-3 py-5 px-5 box-shadow margin">
           <h1 className="font-weight-bold">$599</h1>
           <p>For Elite</p>
           <hr className="borderCyan"/>

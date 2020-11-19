@@ -1,24 +1,22 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../Illustration/Group 86.png';
-import fbLogo from '../../Illustration/facebook-logo-in-circular-shape@2x.png';
-import twitterLogo from '../../Illustration/twitter (4)@2x.png';
-import linkedinLogo from '../../Illustration/linkedin (2)@2x.png';
-import dribbbleLogo from '../../Illustration/dribbble (1)@2x.png';
-import behanceLogo from '../../Illustration/77-behance-512.png';
+import logo from '../../images/logo.png';
+import fbLogo from '../../images/fb-logo.png';
+import twitterLogo from '../../images/twitter-logo.png';
+import linkedinLogo from '../../images/linkedin-logo.png';
+import dribbbleLogo from '../../images/dribbble-logo.png';
+import behanceLogo from '../../images/behance-logo.png';
 
 const Footer = () => {
   return (
     <div className="container">
       <div className="footer mt-5">
-        <h1 className="font-weight-bold">Get your design right, right now</h1>
-        <p className="mt-3 mb-5">Be the first know our latest offers and updates!</p>
+        <h1 style = {{color: '#0D052E' , fontSize: '45px' , fontWeight: '800' , fontFamily: 'Merriweather serif'}} className="font-weight-bold text-center">Get your design right, right now</h1>
+        <p className="mt-3 mb-5 text-center">Be the first know our latest offers and updates!</p>
         <div className="d-flex justify-content-center">
           <div class="input-group-prepend inputWidth">
-            <input type="email" class="form-control" placeholder="Enter your email address"/>
-            <div class="input-group-append">
-              <button class="btn inputBtn" type="button">Get Started</button>
-            </div>
+            <input type="email" class="form-control mr-3" placeholder="Enter your email address"/>
+            <button className = 'btn btn-primary inputBtn'>Get Started</button>
           </div>
         </div>
         <div className="row footerList">
