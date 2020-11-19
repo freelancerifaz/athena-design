@@ -9,6 +9,7 @@ import Home from './components/Home/Home'
 
 function App() {
   return (
+    <div className="app">
     <Router>
       <Switch>
         <Route>
@@ -16,6 +17,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    </div>
   );
 }
 

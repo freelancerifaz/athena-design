@@ -1,0 +1,18 @@
+.text-heading{
+    font-family: 'Merriweather', serif;
+}
+.text-normal{
+    font-family: 'Roboto', sans-serif;
+}
+.button-custom{
+    border: none;
+    color: #ffffff;
+    padding:8px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(28, 216, 184);
+    margin: 20px 0px;
+}
+.button-custom:hover{
+opacity: 0.8;
+}
