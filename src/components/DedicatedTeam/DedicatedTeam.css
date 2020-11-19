@@ -1,0 +1,30 @@
+.margin{
+  margin: 47px;
+}
+.list-group-item{
+  border: none;
+}
+.box-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.borderCyan{
+  border-bottom: 1px solid cyan;
+}
+.borderGray{
+  border-bottom: 1px solid lightgray;
+}
+.cardBorder{
+  border: 2px solid cyan;
+}
+.btn-bg{
+  width: 50%;
+  padding: 10px 0;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: linear-gradient(to right, #1AD4BD , #0AB3E4);
+  color: #fff;
+  border: none;
+}
+hr{
+  width: 70%;
+}
