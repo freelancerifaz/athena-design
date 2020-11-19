@@ -3,14 +3,16 @@ import HeaderMain from '../HeaderMain/HeaderMain';
 import Navbar from '../Navbar/Navbar';
 import Achievements from "../Achievements/Achievements";
 import Features from '../Feature/Features';
+import Service from '../Service/Service';
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
-            <HeaderMain />
-            <Features />
-            <Achievements />
+            <Navbar></Navbar>
+            <HeaderMain></HeaderMain>
+            <Service></Service>
+            <Achievements></Achievements>
+            <Features></Features>
         </div>
     );
 };
