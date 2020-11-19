@@ -4,11 +4,11 @@ import './feature.css';
 
 function Features() {
     return (
-        <section style = {{height : '800px'}} className = 'row d-flex align-items-center mt-5'>
+        <section style = {{height : '800px'}} className = 'row d-flex align-items-center mt-5 offset-md-1'>
             <div className="col-md-6">
                 <img src={image} className='img-fluid w-100' alt="Feature" />
             </div>
-            <div className="col-md-5 offset-md-1">
+            <div className="col-md-5 ml-5">
                 <h1 style = {{color: '#0D052E' , fontSize: '60px' , fontWeight: '800' , fontFamily: 'Merriweather serif'}}>Stay Running & Projects</h1>
                 <p className = 'text-secondary'>It is a long established fact that a reader will be distracted by the
                 <br/>readable content of a page when looking at its layout. The point of <br/>using Lorem Ipsum is that it has a more-or-less normal distribution of letter.</p>
