@@ -14,7 +14,7 @@ const Home = () => {
             <HeaderMain></HeaderMain>
             <Service></Service>
             <Features></Features>
-            <Achievements></Achievements>
+            <Achievements className = "mb-5"></Achievements>
             <DedicatedTeam></DedicatedTeam>
             <Footer></Footer>
         </div>
